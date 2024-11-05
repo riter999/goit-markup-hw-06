@@ -331,7 +331,7 @@ border-radius: 2px;
     }
     
 }
-
+/* _______________________________________________________________________ */
 .section-menu {
     padding: 96px 0;
 }
@@ -394,7 +394,7 @@ border-radius: 2px;
     max-width: 768px;
 }
 .element {
-    width: calc((100%-24px)/2);
+    width: calc((100% - 24px)/2);
     color: #2e2f42;
    
 }
@@ -503,4 +503,210 @@ border-radius: 2px;
     .element-ex {
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
+}
+
+
+.section-menu-three {
+    padding: 95px 0;
+    background: #f4f4fd;
+}
+.container {
+    max-width: 320px;
+    padding-left: 16px;
+    padding-right: 40px;
+    margin: auto;
+}
+.title-item {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+.li-three {
+    
+}
+.item-list {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.profession-class {
+    padding-top: 32px;
+        padding-bottom: 32px;
+}
+.name-item {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+margin-bottom: 8px;
+}
+.professi-item {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
+margin-bottom: 8px;
+}
+.soc-item {
+    display: flex;
+    justify-content: center; 
+    gap: 12px; 
+    flex-wrap: wrap;
+}
+
+
+.team__link {
+    width: 40px;  
+    background-color: #4d5ae5;
+    height: 40px;
+    border-radius: 50%;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media screen and (min-width: 768px) {
+.section-menu-three {
+    padding: 96px 0;
+    background: #f4f4fd;
+}
+.container {
+    max-width: 768px;
+    padding-left: 108px;
+    padding-right: 108px;
+    margin: auto;
+}
+.title-item {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.li-three {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.name-item {
+    font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+.professi-item {
+    font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
+}
+}
+
+
+@media screen and (min-width: 1158px) {
+    .section-menu-three {
+        background-color: #F4F4FD;
+        letter-spacing: 0.02em;
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
+
+.container {
+    max-width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+   
+    
+}
+
+.title-item {
+    font-weight: 700;
+    line-height: 1.11;
+    color: #2e2f42;
+    text-transform: capitalize;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-bottom: 72px;
+}
+.li-three {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.item-list {
+    background-color: #FFFFFF;
+    width: calc((100% - 48px) / 3);
+    border-radius: 0px 0px 4px 4px;
+    
+    
+}
+
+.profession-class {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.name-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px
+    
+}
+.professi-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.soc-item {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+.soc-item-point {
+    width: 40px;
+    height: 40px;
+    
+}
+.team__link {
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icons-soc {
+    fill: #f4f4fd;
+}
+img {
+    display: block;
+    width: 100%;
+}
+
 }
