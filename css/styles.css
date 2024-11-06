@@ -804,7 +804,7 @@ margin-bottom: 32px;
 
 .page-footer {
     background: #2e2f42;
-    
+    padding-top: 98px;
     }
 .footer-div {
   padding-left: 16px;
@@ -814,17 +814,13 @@ margin-bottom: 32px;
 
 
 .logo {
-        font-family: "Raleway", sans-serif;
-        font-weight: 700;
+         font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
         text-transform: uppercase;
         color: #4d5ae5;
         letter-spacing: 0.03em; 
-        margin-top: 98px;
-        
-        
-}
+        }
 
 .footer-logo .logo-part {
     color: #f4f4fd;
@@ -832,11 +828,13 @@ margin-bottom: 32px;
     
 }
 .rights-item {
-    font-weight: 400;
+font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
+text-align: left;
+margin-top: 16px;
 }
 
 .media {
@@ -847,16 +845,79 @@ color: #f4f4fd;
     color: #fff;
     margin-top: 72px;
     text-align: center;
+    margin-bottom: 16px;
 }
 .footerul {
-    align-items: center;
     display: flex;
     gap: 16px;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+}
     
-.lifooter {
+    .lifooter {
         width: 40px;
         height: 40px;
-      }
-    }
+       
+}
+
+      .footer-link {
+        width: 100%;
+        height: 100%;
+        background-color: #4d5ae5;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icons-soc {
+    fill: #f4f4fd;
+}
+
+
+.paragraf-footer {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+    color: #ffffff;
+     text-align: center;
+     margin-top: 72px;
+}
+
+
+.input-footer {
+    width: 288px;
+     height: 40px;
+    border: 1px solid #ffffff; 
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2; 
+    letter-spacing: 0.04em;
+    padding-left: 16px; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
+    border-radius: 4px;
+    color: #ffffff; 
+    margin-bottom: 16px;
+}
+.button-footer {
+    width: 165px;
+    height: 40px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none; 
+    border-radius: 4px; 
+    padding: 8px 24px;
+
+}
