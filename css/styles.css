@@ -709,20 +709,13 @@ img {
 }
 
 }
-
+/* _______________________________________________ */
 .section-menu-four {
    padding: auto;
    margin: auto;
 }
 
-.container {
-    max-width: 320px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 16px;
-   
-    
-}
+
 .title-item {
     font-weight: 700;
     font-size: 36px;
@@ -767,17 +760,12 @@ margin-bottom: 32px;
 
 @media screen and (min-width: 768px) {
     .section-menu-four {
+        max-width: 768;
         padding-top: 96px;
         padding-bottom: 96px;
 }
 
-.container {
-    max-width: 768px;
-    
-    padding: 0 16px;
-   
-    
-}
+
 .title-item {
     font-weight: 500;
     font-size: 20px;
@@ -791,6 +779,84 @@ margin-bottom: 32px;
      display: flex;
       gap: 24px;
      flex-wrap: wrap;
+
    
 }
+.li-four {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   flex: calc(50% - 12px);
 }
+.paragraph {
+    display: none;
+}
+.app-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
+          
+
+}
+
+}
+
+
+.page-footer {
+    background: #2e2f42;
+    
+    }
+.footer-div {
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
+  }
+
+
+.logo {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        text-transform: uppercase;
+        color: #4d5ae5;
+        letter-spacing: 0.03em; 
+        margin-top: 98px;
+        
+        
+}
+
+.footer-logo .logo-part {
+    color: #f4f4fd;
+    letter-spacing: 0.03em;
+    
+}
+.rights-item {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+}
+
+.media {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-top: 72px;
+    text-align: center;
+}
+.footerul {
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    
+.lifooter {
+        width: 40px;
+        height: 40px;
+      }
+    }
