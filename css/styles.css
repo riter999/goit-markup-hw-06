@@ -809,11 +809,13 @@ margin-bottom: 32px;
 .page-footer {
     background: #2e2f42;
     padding-top: 96px;
+    padding-bottom: 104px;
     }
 .footer-div {
   padding-left: 16px;
   padding-right: 16px;
   text-align: center;
+ 
   }
 
 
@@ -918,7 +920,14 @@ margin-top: 16px;
     background-color: #4D5AE5;
     border: none; 
     border-radius: 4px; 
+    display: block;
+   
     }
+    .icons-footer-buttom {
+        margin-left: 16px; 
+        
+        
+}
 
     @media (max-width: 767px) {
         .button-footer {
