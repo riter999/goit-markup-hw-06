@@ -79,11 +79,16 @@ img {
     display: flex;
     align-items: center;
 }
+.menu-item {
+    margin-left: 76px;
+}
 .menu-item,
 .address-menu {
     display: none;
 }
-
+.main-menu {
+    margin-right: 76px;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -92,7 +97,6 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     letter-spacing: 0.03em;
-    margin-right: 76px;
     display: inline-block;
 }
 .header-logo .logo-part {
@@ -904,10 +908,6 @@ margin-top: 16px;
 .button-footer {
     width: 165px;
     height: 40px; 
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -919,5 +919,12 @@ margin-top: 16px;
     border: none; 
     border-radius: 4px; 
     padding: 8px 24px;
+    
 
+}
+.form-footer {
+   text-align: center;
+   align-items: center;
+   display: flex;
+   display: block;
 }
